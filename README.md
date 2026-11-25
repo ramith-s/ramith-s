@@ -13,13 +13,18 @@ I build things with Python and I'm growing as a full-stack developer.
 
 **ML & Data:** Machine Learning · Deep Learning · NLP · Data Analysis · Data Visualization · Regression Models · Image Processing
 
-**Libraries & Tools:** Scikit-learn · Matplotlib · OpenCV · Selenium · MySQL · Microsoft Excel
+**AI Agents:** LangGraph · LLM APIs (OpenAI, Anthropic) · Agentic workflows · Docker sandboxing
+
+**Libraries & Tools:** Scikit-learn · Matplotlib · OpenCV · Selenium · pytest · Docker · Git · GitHub Actions · MySQL · Microsoft Excel
 
 ---
 
-### 📌 Featured project
+### 📌 Featured projects
 
-**[Visual Website Clone Detector](https://github.com/ramith-s/Visual_Website_Clone_Detector)**
+**[Issue-to-PR Agent](https://github.com/ramith-s/issue-to-pr-agent)** 🐛➡️✅
+An autonomous AI coding agent: give it a GitHub issue and it clones the repo into a Docker sandbox, writes a failing pytest test that reproduces the bug, fixes the code until all tests pass, and opens a pull request explaining the fix. Built with LangGraph, Docker, pytest and the GitHub API.
+
+**[Visual Website Clone Detector](https://github.com/ramith-s/Visual_Website_Clone_Detector)** 🔍
 Detects phishing websites that visually copy legitimate ones, by comparing their screenshots with the real site using OpenCV and SSIM. Each scanned site gets a risk level, with the visual differences highlighted.
 
 ---
